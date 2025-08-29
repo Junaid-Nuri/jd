@@ -189,6 +189,9 @@ const HeroSection = () => {
           window.recaptchaVerifier.clear();
           window.recaptchaVerifier = null;
         }
+        
+        // Redirect to WhatsApp
+        window.open('https://wa.me/919833689713', '_blank');
       }
     } catch (err) {
       console.error(err);
